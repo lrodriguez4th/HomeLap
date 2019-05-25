@@ -43,7 +43,10 @@ public class App
     	//String[] ArrayReturned;
     	//App Operaciones = new App();
     	//App2 Arreglos = new App2();
-    	App3 Ejercicio1 = new App3();
+    	//App3 Ejercicio1 = new App3();
+    	//App4 ComparaArreglos = new App4();
+    	Fibonacci Secuencia = new Fibonacci();
+    	Ejercicios Ejer = new Ejercicios();
     	//Operaciones.suma(5, 30);
     	//Operaciones.multiplicacion(4, 5);
     	//Operaciones.tabla(20, 4);
@@ -54,8 +57,12 @@ public class App
     	size=sc.nextInt();
     	//ArrayReturned = Arreglos.ArrayFlor(size);
     	//Arreglos.ShowMeArrayFlor(ArrayReturned);
-    	Ejercicio1.Mediana(size);
-    	
+    	//Ejercicio1.Mediana(size);
+    	//ComparaArreglos.ComparaArreglos(size);
+    	//Secuencia.Nums(size);
+    	Ejer.Mediana(size);
+    	Ejer.ComparaArreglos(size);
+    	Ejer.Fibonacci(size);
     	/*ESTRUCTURA DE UN CICLO FOR
     	 * for(int i=0; i<=k; i++){ 
     	 *     	System.out.println(i);}
